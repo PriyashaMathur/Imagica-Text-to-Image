@@ -41,7 +41,7 @@ const Profile = () => {
 
   const handleProfile = async (e) => {
     try {
-      const res = await axios.get("http://localhost:5000/api/users/profile", {
+      const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/users/profile`, {
         headers: {
           token: localStorage.getItem("token"),
         },
