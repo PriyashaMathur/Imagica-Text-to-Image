@@ -1,5 +1,5 @@
 import React from "react";
-import ImageCard from "../Components/imageCard";
+import ImageCard from "../Components/ImageCard";
 import { useState, useEffect } from "react";
 import NavBar from "../Components/NavBar";
 import axios from "axios";
